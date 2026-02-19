@@ -2,7 +2,7 @@
 
 def configMap = [
     project: "robomart", 
-    component: "cart"
+    component: "payment"
 ]
 
 if ( !env.BRANCH_NAME.equalsIgnoreCase("main") ) {
